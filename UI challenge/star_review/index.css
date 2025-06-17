@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div,span{
+    transition-duration: 300ms;
+    transition-property: all;
+}
+
+.review h3{
+    font-size: 2rem;
+}
+
+.star{
+    font-size: 2rem;
+    color: rgb(126, 125, 125);
+    cursor: pointer;
+}
+
+.star-gold{
+    font-size: 2rem;
+    cursor: pointer;
+    color: gold;
+}
+
+#star-gold{
+    font-size: 2rem;
+    cursor: pointer;
+    color: gold;
+}
+
